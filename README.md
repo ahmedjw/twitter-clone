@@ -1,2 +1,4 @@
 # twitter-clone
-Gsg project
+Gsg Assignment for code academy 
+the 4th project 
+
