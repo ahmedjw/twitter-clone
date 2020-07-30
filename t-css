@@ -1,0 +1,266 @@
+body{
+    background-color: #FBFBFB;
+}
+
+.main{
+width: 80%;
+height: 100%;
+margin: auto;
+background-color: #FBFBFB;
+font-size: 18px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin-left: 100px;
+}
+
+.head{
+font-size:30px ;
+padding: 2px 0px;
+cursor: pointer;
+width: 255px;
+padding: 1px;
+border: solid white 1px;
+position: absolute;
+float: left;
+
+}
+.headI{
+    float: left;
+}
+.headT{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    
+    
+} 
+
+.tools{
+    width: 220px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;  
+    color:  black;
+    margin-top: 30px;
+    font-weight: bold;
+    float: left;
+    
+}
+.home{
+    margin-top: 30px;
+    margin-bottom:5px;
+    width: 255px;
+    height: 60px;
+    cursor: pointer;
+
+    text-align: bottom;
+}
+#H{
+    width: 35px;
+    float: left;
+    align-items: left;
+    margin-right: 20px;
+
+}
+.H2{
+    text-align: left;
+    margin-top: -15px;
+    margin-left: 5px;
+
+}
+.not{
+    margin-bottom:5px;
+    width: 255px;
+    height: 60px;
+}
+.N{
+    width: 30px;
+    align-items: left;
+    float: left;
+    cursor: pointer;
+    margin-top: -15px;
+    margin-right: 20px;
+
+    }
+.N2{
+        text-align: bottom;
+        margin-top: -10px;
+        margin-right: 5px;
+        cursor: pointer;
+
+    }
+.S{
+        width: 40px;
+        float: left;
+        cursor: pointer;
+        margin-top: -30px;
+        margin-right: 10px;
+    
+        }
+.S2{
+            text-align: bottom;
+            margin-top: -20px;
+            margin-left:-10px;
+            cursor: pointer;
+    
+        }    
+.mes{
+    margin-top: 30px;
+    margin-bottom:5px;
+    width: 255px;
+    height: 60px;
+    cursor: pointer;
+
+}
+.M{
+    width: 30px;
+    align-items: left;
+    cursor: pointer;
+    float: left;
+    margin-top: -20px;
+    margin-right: 22px;
+}
+.M2{
+    text-align:left;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-top: -15px;
+    margin-right: -10px;
+}
+.B{
+    width: 35px;
+    align-items: left;
+    cursor: pointer;
+    float: left;
+    margin-top: -35px;
+    margin-right: -10px;
+}
+.B2{
+    text-align:left;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-top: -30px;
+    margin-left: 50px;
+    
+
+}
+.pr{
+    width: 30px;
+    align-items: left;
+    float: left;
+    margin-top: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.pr2{
+    text-align: top;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.butT{
+    background-color: rgb(29, 161, 242);
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 28px;
+    height: 49px;
+    width: 190px;
+    margin-top: 30px;
+    cursor: pointer;
+    border:#4285f4 solid 1px ;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+
+
+
+}
+.pf{
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+   
+
+.pph{
+    width: 40px;
+    border-radius: 50%;
+    float: left;
+}
+.nn{
+font-size: 12px;
+font-weight: bold;
+
+}
+.un{
+    font-size: 12px;
+    color: rgb(145, 140, 140);    
+}
+.box{
+    width: 480px;
+    margin: 20px;
+    height: 1000px;
+    border-left: rgb(212, 210, 210) 1px solid;
+    border-right: rgb(212, 210, 210) 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+.ups{
+    height: 35px;
+    font-size: large;
+    font-weight: bold;
+    width: 460px;
+    border-bottom: rgb(212, 210, 210) 1px solid;
+    margin-bottom: 0px;
+    
+    
+}
+.tweet{
+    text-align: left;
+    width: 400px;
+    height: 90px;
+    border-top: none;
+    border-left: none;
+    border-bottom: rgb(212, 210, 210) 1px solid;
+    border-right: none;
+    position: absolute;
+    align-content: top;
+    margin-left: 60px;
+    background-color: #FBFBFB;
+}
+.butT2{
+    background-color: rgb(29, 161, 242);
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 28px;
+    height: 30px;
+    width: 80px;
+    margin-left: 375px;
+    cursor: pointer;
+    border:#4285f4 solid 1px ;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    position: sticky;}
+.ups2{
+    height: 35px;
+    width: 480px;
+    border-bottom: rgb(212, 210, 210) 1px solid;
+    margin-top: 100px;
+    position: absolute;
+    border-bottom:  rgb(212, 210, 210) 9px solid;
+
+}
+.pph1{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 10px;}
