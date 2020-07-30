@@ -38,13 +38,18 @@
         </div>
         <div class="feed">
         <div class="Nfeed">
-            <div id="nick"></div>
-            <div id="user"></div>
-            <div id="photo"></div>
-            <div id="tweets"></div>
-            <div ></div>
-            <div></div>
-            <div></div>
+            <div  ><img id="photo" src="ahmed.jpg" alt="profilepicture"></div>
+
+            <div id="nick">Ahmedjwifel</div>
+            <div id="user">@ahmedjw</div>
+            <div id="tweets">today is a great day. </div>
+            <div>
+            <div><img id="co" src="co.jpg" alt="comment"></div>
+            <div><img id="r" src="r.jpg" alt="retweet"></div>
+            <div><img id="l" src="like.jpg" alt="Like"></div>
+            <div><img id="p" src="pin.jpg" alt="Bookmarks"></div>
+        </div>
+
         </div></div>
     
     </div>
