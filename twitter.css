@@ -18,7 +18,7 @@ padding: 2px 0px;
 cursor: pointer;
 width: 255px;
 padding: 1px;
-border: solid white 1px;
+border: none;
 position: absolute;
 float: left;
 
@@ -203,7 +203,7 @@ font-weight: bold;
     color: rgb(145, 140, 140);    
 }
 .box{
-    width: 480px;
+    width: 590px;
     margin: 20px;
     height: 1000px;
     border-left: rgb(212, 210, 210) 1px solid;
@@ -214,16 +214,17 @@ font-weight: bold;
 .ups{
     height: 35px;
     font-size: large;
-    font-weight: bold;
-    width: 460px;
+    font-weight: 900;
+    width: 580px;
     border-bottom: rgb(212, 210, 210) 1px solid;
     margin-bottom: 0px;
+    margin-left: 10px;
     
     
 }
 .tweet{
     text-align: left;
-    width: 400px;
+    width: 526px;
     height: 90px;
     border-top: none;
     border-left: none;
@@ -234,12 +235,17 @@ font-weight: bold;
     margin-left: 60px;
     background-color: #FBFBFB;
 }
+.tweet::placeholder{
+font-size: 22px;
+
+
+}
 .butT2{
     background-color: rgb(29, 161, 242);
     box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 28px;
     height: 30px;
     width: 80px;
-    margin-left: 375px;
+    margin-left: 500px;
     cursor: pointer;
     border:#4285f4 solid 1px ;
     border-bottom-left-radius: 9999px;
@@ -252,16 +258,19 @@ font-weight: bold;
     position: sticky;}
 .ups2{
     height: 35px;
-    width: 480px;
+    width: 590px;
     border-bottom: rgb(212, 210, 210) 1px solid;
     margin-top: 100px;
     position: absolute;
-    border-bottom:  rgb(212, 210, 210) 9px solid;
+    border-bottom:  rgb(230, 236, 240) 10px solid;
 
 }
 .pph1{
     width: 40px;
-    border-radius: 50%;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
     margin-left: 5px;
     margin-top: 10px;}
 /*.qoutes{
@@ -274,10 +283,12 @@ font-weight: bold;
 }*/
 .feed{
 margin-top: 100px;
+display: flex;
+flex-direction: column;
 
 }
 .Nfeed{
-
+padding-left: 15px;
 display: flex;
 flex-direction: row;
 height: 140px;
@@ -285,11 +296,18 @@ border-bottom: rgb(212, 210, 210) 1px solid;
 
 
 }
+.Tb{
+    display: inline-block;
+    flex-direction: row;
+    
+}
+
+
 #photo{
-    width: 50px;
-    border-radius: 50%;
+    width: 40px;
+    border-radius: 10%;
     margin-left: 5px;
-    margin-top: 10px;
+    margin-top: 0px;
     
     
     
@@ -301,7 +319,7 @@ border-bottom: rgb(212, 210, 210) 1px solid;
 #nick{
     font-size: 15px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-top: 15px;
+    margin-top: 0px;
     margin-left: 10px;
     font-weight: bold;
     float: none;
@@ -309,40 +327,66 @@ border-bottom: rgb(212, 210, 210) 1px solid;
 
 }
 #user{
-    margin-top: 15px;
-    margin-left: 5px;
+    margin-top: 20px;
+    margin-left: -90px;
     font-size: 15px;
     display: flex;
     color: rgb(145, 140, 140); 
 
 }
 #tweets{
-margin-top: 50px;
-margin-left: -170px;
+margin-top: 60px;
+margin-left: -120px;
+text-align: justify;
+font-size: 15px;
+display: flex;
 
 }
 #co{
     width: 40px;
     float: left;
-    margin-top: 100px;
-    margin-left: -190px;
+    margin-top: 25px;
+    margin-left: -50px;
+    cursor: pointer;
 }
 #r{
     width: 35px;
     float: left;
-    margin-top: 100px;
-    margin-left: -100px;  
+    margin-top: 25px;
+    margin-left: 70px;  
+    position: sticky;
+    cursor: pointer;
+
 }
 #l{
     width: 40px;
     float: left;
-    margin-top: 100px;
+    margin-top: 25px;
+    margin-left: 100px;
+    position: sticky;
+    cursor: pointer;
        
 }
 #p{
     width: 37px;
     float: left;
-    margin-top: -32px;
-    margin-left: 100px;
+    margin-top: -30px;
+    margin-left: 310px;
+    position: sticky;
+    cursor: pointer;
 }
 
+.l{
+width: 70px;
+margin-left: 620px;
+margin-top: -220px;
+position: sticky;
+
+
+}
+.r{
+ width: 65px;
+margin-left: 620px;
+margin-top: 50px;
+position: sticky;
+}
